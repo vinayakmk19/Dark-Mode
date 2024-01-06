@@ -42,7 +42,7 @@ nav ul li a:hover{
 
 .info{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .info h1{
@@ -84,11 +84,30 @@ span{
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    transition: bottom 1s;
+    transition: bottom 1s, left 1s;
 }
 
 .img-box:hover .back-img{
     bottom: 40px;
+}
+
+.img-box:hover .main-img{
+    left: 54%;
+}
+
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+}
+
+.social-links a:hover{
+    color: #ff4321;
 }
 
 
